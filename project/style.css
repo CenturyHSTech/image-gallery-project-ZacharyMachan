@@ -1,15 +1,42 @@
 body {
     font-family: "Quicksand", serif;
     margin: 0;
+    color:#ffffff;
+    background-color: #392311;
 }
+
 h1, h2 {
     font-family: "Quicksand", serif;
+
 }
+
 header {
     background-image: url("images/red-panda-3006441_1280.jpg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom -475px right 0px;
     background-size: cover;
     height: 400px;
     padding: 2em;
+}
+
+header div {
+    background-color: #3923119f;
+    width: 30em;
+    max-width: 98%;
+    padding: 1em;
+}
+
+figure {
+    margin: 1em;
+    border-color: #D0C2AF;
+    border-width: 10px;
+    border-style: solid;
+    padding: 0.75em;
+    width: 400px;
+    background-color: #8C8479;
+    float: left;
+}
+
+footer {
+    clear: both;
 }
