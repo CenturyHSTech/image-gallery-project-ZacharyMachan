@@ -28,13 +28,18 @@ header div {
 
 figure {
     margin: 1em;
-    border-color: #D0C2AF;
+    border-color: #777066;
     border-width: 10px;
     border-style: solid;
     padding: 0.75em;
     width: 400px;
-    background-color: #8C8479;
-    float: left;
+    background-color: #D0C2AF;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    color:#000000;
+    justify-content: center;
 }
 
 footer {
