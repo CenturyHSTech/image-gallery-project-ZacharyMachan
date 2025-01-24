@@ -12,7 +12,7 @@ h1, h2, h3 {
 
 header {
     background-image: url("images/red-panda-3006441_1280.jpg");
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-position: bottom -475px right 0px;
     background-size: cover;
     margin-bottom: 1em;
@@ -72,7 +72,9 @@ main {
 footer {
     clear: both;
     text-align: center;
-    padding: 1em;
+    margin: 1em;
+    margin-bottom: 2em;
+    padding: 0;
 
     a:link {
         color: #57C7FF
