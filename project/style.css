@@ -21,7 +21,7 @@ header {
 }
 
 header div {
-    background-color: #3923119f;
+    background-color: #392311a6;
     text-align: left;
     width: 35em;
     max-width: 98%;
@@ -50,6 +50,16 @@ figure {
         text-align: center;
         padding: 1em;
     }
+
+    a:link {
+        color: #0000B8
+    }
+    a:visited {
+        color: #000061
+    }
+    a:hover {
+        color: #003952
+    }
 }
 
 main {
@@ -63,4 +73,15 @@ footer {
     clear: both;
     text-align: center;
     padding: 1em;
+
+    a:link {
+        color: #57C7FF
+    }
+    a:visited {
+        color: #C3A3FF
+    }
+    a:hover {
+        color: #99B3FF
+
+    }
 }
