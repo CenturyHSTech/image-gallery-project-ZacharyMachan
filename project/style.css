@@ -1,4 +1,8 @@
-background-color: #392311;
+body {
+    font-family: "Quicksand", serif;
+    margin: 0;
+    color:#ffffff;
+    background-color: #392311;
 }
 
 h1, h2, h3 {
